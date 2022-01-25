@@ -3,7 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/Android/app/src/main/res/drawable/ic_one.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/Android/app/src/main/res/drawable/ic_two.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/Android/app/src/main/res/layout-v21/app_widget_configure.xml" value="0.1796875" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/Android/app/src/main/res/layout/activity_app_widget_provider.xml" value="0.1796875" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/Android/app/src/main/res/layout/activity_first.xml" value="0.1796875" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/Android/app/src/main/res/layout/activity_launch_modeactivity.xml" value="0.1" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/Android/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/Android/app/src/main/res/layout/activity_my_widget.xml" value="0.1796875" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/Android/app/src/main/res/layout/activity_notification.xml" value="0.1796875" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/Android/app/src/main/res/layout/activity_second.xml" value="0.1796875" />
         <entry key="..\:/Users/Mahesh/AndroidStudioProjects/Android/app/src/main/res/layout/activity_snack_bar.xml" value="0.1" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/Android/app/src/main/res/layout/activity_third.xml" value="0.1796875" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/Android/app/src/main/res/layout/app_widget.xml" value="0.1" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/Android/app/src/main/res/layout/app_widget_configure.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/Android/app/src/main/res/layout/example_widget.xml" value="0.1796875" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/Android/app/src/main/res/xml/example_app_widget_info.xml" value="0.1796875" />
+        <entry key="..\:/Users/Mahesh/AndroidStudioProjects/Android/app/src/main/res/xml/widget.xml" value="0.1796875" />
       </map>
     </option>
   </component>

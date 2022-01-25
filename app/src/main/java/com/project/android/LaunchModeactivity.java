@@ -4,17 +4,20 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 
-public class FirstActivity extends AppCompatActivity {
+public class LaunchModeactivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_first);
+        setContentView(R.layout.activity_launch_modeactivity);
+
     }
+
     public void launch(View view) {
-        Intent i=new Intent(FirstActivity.this,SecondActivity.class);
+        Intent i=new Intent(LaunchModeactivity.this,LaunchModeactivity.class);
         startActivity(i);
 
     }

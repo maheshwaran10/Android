@@ -3,6 +3,7 @@ package com.project.android;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -42,5 +43,11 @@ public class SnackBarActivity extends AppCompatActivity {
                 })
                 .setActionTextColor(Color.RED);
         snackbar.show();
+    }
+
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+
     }
 }

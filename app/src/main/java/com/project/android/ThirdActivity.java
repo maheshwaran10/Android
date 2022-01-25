@@ -6,22 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class FirstActivity extends AppCompatActivity {
+public class ThirdActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_first);
+        setContentView(R.layout.activity_third);
     }
+
     public void launch(View view) {
-        Intent i=new Intent(FirstActivity.this,SecondActivity.class);
+        Intent i = new Intent(ThirdActivity.this, SecondActivity.class);
         startActivity(i);
 
-    }
-
-    @Override
-    protected void onNewIntent(Intent intent) {
-        super.onNewIntent(intent);
-        System.out.println("Hi Iam SingleTop");
     }
 }
