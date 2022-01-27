@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android">
         <activity
+            android:name=".navigationView.NavigationDrawerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".viewpager.ViewPagerActivity"
+            android:exported="false" />
+        <activity
             android:name=".ThirdActivity"
             android:exported="false" />
         <activity android:name=".MainActivity" />
@@ -21,8 +27,11 @@
         <activity android:name=".SnackBarActivity" />
         <activity android:name=".LaunchModeactivity" />
         <activity android:name=".FirstActivity" />
-        <activity android:name=".SecondActivity"/>
-        <activity android:name=".NotificationActivity">
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity
+            android:name=".mvvm.MvvmExampleActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,7 +39,8 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".ExampleAppWidget"
+        <receiver
+            android:name=".ExampleAppWidget"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
